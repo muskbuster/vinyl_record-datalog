@@ -1,19 +1,19 @@
-# BOOK MANAGEMENT
-Book Management is a smart contract which works as a library. It contains a database of books. The following functionalities can be added:
+# VINYL DATALOG
+Vinyl datalog allows user to enter details of viyl records like the name of the album,artist,genre and its price. This contract is made with the idea that it can be used by stores that sell vinyls as collectibles.this contract can be used to log all the vinyls available in a store. There are three functions it can offer right now:
 
-1. Create a book with details like:</br>
-- ID of the book
-- Name of the book
-- Author of the book
-- Department to which the book belongs to
+1.  Vinyls available can be added to the database with the following data:</br>
+- Name of the album
+- Artist of the album
+- the genre 
+- album's price
 
-2. View all the books stored on chain
+2. list of all the vinyls available on the blockchain
 
-3. Query a particular book though ID of the book.
+3. search a vinyl based on the name of the album 
 
 ## Installation
 
-To run the project locally, follow the below steps:
+To run the CONTRACT locally, follow the below steps:
 
 ## Getting started
 1. Make sure you have installed Node.js >= 12 
@@ -37,18 +37,19 @@ To run the project locally, follow the below steps:
 ## Using the methods of the deployed contract
 The following commands will allow you to interact with NEAR CLI and the deployed smart contract's methods:
 
-### Command to create a new book:
-`near call $CONTRACT newBook '{"bookId": "string","bookName": "string","author": "string","department": "string"}' --account-id <Enter your account id>`
+### Command to log a new vinyl data:
+`near call $CONTRACT newVinyl '{"songName" : "song", "artist":"artistt", "genre" : "genree","price" : "$"}' --account-id <Enter your account id>`
 
 Insert the data in place of "string" mentioned in the command of the method.<br>
 The contract details will be available in the folder named 'neardev'->'dev-account'
 
 ### Command to view all the books: 
-`near view $CONTRACT seeBooks '{}'`
+`near view $CONTRACT Vinylarsenal '{}'`
 
 ### Command to query books with ID:
-`near call $CONTRACT queryBook '{"bookID" : "string"}' --account-id <Enter your account id>`
-Insert the ID of the book in place of string in above command. 
+`near call $CONTRACT Vinylavailable '{"songName" : "string"}' --account-id <Enter your account id>`
 
 ## USAGE:
-The contract can be used as a Blockchain based Library application for storing books on chain with other related info after amending in the contract.
+this contract can be used to log the details of vinyl records available in a store or a museum. 
+I am looking forward to add features like being able to pay using near for the records and renting of vinyls with monthly near expenditure. Also auction various rare record by bidding on the near blockchain.
+I will soon be working on that.
