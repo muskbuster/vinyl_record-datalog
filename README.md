@@ -43,10 +43,10 @@ The following commands will allow you to interact with NEAR CLI and the deployed
 Insert the data in place of "string" mentioned in the command of the method.<br>
 The contract details will be available in the folder named 'neardev'->'dev-account'
 
-### Command to view all the books: 
+### Command to view all the Vinyls : 
 `near view $CONTRACT Vinylarsenal '{}'`
 
-### Command to query books with ID:
+### Command to search a vinyl record based on song/album name:
 `near call $CONTRACT Vinylavailable '{"songName" : "string"}' --account-id <Enter your account id>`
 
 ## USAGE:
