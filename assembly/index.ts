@@ -31,20 +31,9 @@ export function Vinylavailable(songName : string):Vinyls|null{
   }
   return null;
 }
-export function Genresearch(genre: string):Vinyls|null{
-  assert(genre.length>0,"music cannot be defined but you gotta tell the song name mate");
-for (let i = 0; i < vinyl.length; i++) {
-  if (vinyl[i].genre == genre) {
-    let fromBlockchain = vinyl[i];
-    return fromBlockchain;
-  }
-}
-return null;
-}
 
 
 //near call sudeep.testnet newVinyl '{"songName" : "rasputin", "artist":"boney", "genre" : "rock","price" : "12"}' --account-id sudeep.testnet
 //near call sudeep.testnet newVinyl '{"songName" : "random access memory", "artist":"daft punk", "genre" : "edm","price" : "100"}' --account-id sudeep.testnet
 //near call sudeep.testnet Vinylarsenal '{}' --account-id sudeep.testnet
 //near call sudeep.testnet Vinylavailable '{"songName" : "rasputin"}' --account-id sudeep.testnet
-//near call sudeep.testnet Genresearch '{"genre" : "edm"}' --account-id sudeep.testnet
