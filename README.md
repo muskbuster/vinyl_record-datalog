@@ -1,5 +1,5 @@
 # VINYL DATALOG
-### (this project is derived from and inspired by https://github.com/gitshreevatsa/Book-Management by gitsheevathsa)
+##### (this project is derived from and inspired by https://github.com/gitshreevatsa/Book-Management by gitsheevathsa)
 Vinyl datalog allows user to enter details of viyl records like the name of the album,artist,genre and its price. This contract is made with the idea that it can be used by stores that sell vinyls as collectibles.this contract can be used to log all the vinyls available in a store. There are three functions it can offer right now:
 
 1.  Vinyls available can be added to the database with the following data:</br>
