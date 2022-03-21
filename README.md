@@ -54,5 +54,4 @@ Insert the data in place of "string" mentioned in the command of the method.<br>
 this contract can be used to log the details of vinyl records available in a store or a museum. 
 I am looking forward to add features like being able to pay using near for the records and renting of vinyls with monthly near expenditure. Also auction various rare record by bidding on the near blockchain.
 I will soon be working on that.
-##### (this project is derived from and inspired by https://github.com/Learn-NEAR/NCD.L1.sample--library by Learn-Near I had to add this comment as i had forgotten to fork the repo and cloned it .TO avoid violation of certification of rules i have added it here)
 
