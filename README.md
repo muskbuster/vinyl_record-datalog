@@ -10,7 +10,7 @@ Vinyl datalog allows user to enter details of viyl records like the name of the 
 2. list of all the vinyls available on the blockchain
 
 3. search a vinyl based on the name of the album 
-##### (this project is derived from and inspired by https://github.com/gitshreevatsa/Book-Management by gitsheevathsa)
+##### (this project is derived from and inspired by https://github.com/gitshreevatsa/Book-Managementby gitsheevathsa)
 ## Installation
 
 To run the CONTRACT locally, follow the below steps:
@@ -41,7 +41,7 @@ The following commands will allow you to interact with NEAR CLI and the deployed
 `near call $CONTRACT newVinyl '{"songName" : "song", "artist":"artistt", "genre" : "genree","price" : "$"}' --account-id <Enter your account id>`
 
 Insert the data in place of "string" mentioned in the command of the method.<br>
-The contract details will be available in the folder named 'neardev'->'dev-account'
+
 
 ### Command to view all the Vinyls : 
 `near view $CONTRACT Vinylarsenal '{}'`
