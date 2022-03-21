@@ -10,7 +10,7 @@ Vinyl datalog allows user to enter details of viyl records like the name of the 
 2. list of all the vinyls available on the blockchain
 
 3. search a vinyl based on the name of the album 
-##### (this project is derived from and inspired by https://github.com/gitshreevatsa/Book-Managementby gitsheevathsa)
+
 ## Installation
 
 To run the CONTRACT locally, follow the below steps:
@@ -53,3 +53,5 @@ Insert the data in place of "string" mentioned in the command of the method.<br>
 this contract can be used to log the details of vinyl records available in a store or a museum. 
 I am looking forward to add features like being able to pay using near for the records and renting of vinyls with monthly near expenditure. Also auction various rare record by bidding on the near blockchain.
 I will soon be working on that.
+##### (this project is derived from and inspired by https://github.com/gitshreevatsa/Book-Management by gitsheevathsa)
+
