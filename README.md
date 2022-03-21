@@ -32,7 +32,8 @@ To run the CONTRACT locally, follow the below steps:
 2. In the terminal , navigate to the project folder, to install the dependencies and run `yarn`
 
 ## To create a smart contract development and deployment:
-1. Run `yarn build` to build the smart contract. Look at package.json folder to see all the command that can be executed with yarn.![Annotation 2022-03-21 220316](https://user-images.githubusercontent.com/81789395/159311303-570a6f54-a178-4bc4-a823-4ea56b068d91.png)
+1. Run `yarn build` to build the smart contract. Look at package.json folder to see all the command that can be executed with yarn.
+![Annotation 2022-03-21 220316](https://user-images.githubusercontent.com/81789395/159311303-570a6f54-a178-4bc4-a823-4ea56b068d91.png)
 3. Run `yarn deploy` to deploy the smart contract to the development server that was built in the previous step. This will return the Txn ID of the deployed contract along with a link to near explorer to see various statistics of the deployed contract.
 ![Annotation 2022-03-21 220402](https://user-images.githubusercontent.com/81789395/159311454-5d9c1a33-2bb9-43bf-a4d9-f52f1654a740.png)
 ![Annotation 2022-03-21 220423](https://user-images.githubusercontent.com/81789395/159311482-73f4e488-7204-4317-b826-daf2f6db85da.png)
