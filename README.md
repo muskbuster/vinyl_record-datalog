@@ -1,5 +1,6 @@
 # VINYL DATALOG
 Vinyl datalog allows user to enter details of viyl records like the name of the album,artist,genre and its price. This contract is made with the idea that it can be used by stores that sell vinyls as collectibles.this contract can be used to log all the vinyls available in a store. There are three functions it can offer right now:
+##### (this project is derived from and inspired by https://github.com/Learn-NEAR/NCD.L1.sample--library by Learn-Near I had to add this comment as i had forgotten to fork the repo and cloned it .TO avoid violation of certification of rules i have added it here)
 
 1.  Vinyls available can be added to the database with the following data:</br>
 - Name of the album
